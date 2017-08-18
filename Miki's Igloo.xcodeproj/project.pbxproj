@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C54958D1F4788C200DAB8F9 /* IceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54958C1F4788C200DAB8F9 /* IceSheet.swift */; };
+		1C54958F1F478C5200DAB8F9 /* Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54958E1F478C5200DAB8F9 /* Water.swift */; };
+		1C5495911F478E6500DAB8F9 /* Miki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5495901F478E6500DAB8F9 /* Miki.swift */; };
+		1C5495931F47A59F00DAB8F9 /* GroundLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5495921F47A59F00DAB8F9 /* GroundLine.swift */; };
 		1C94D3261F3E54C000CFDFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C94D3251F3E54C000CFDFAE /* AppDelegate.swift */; };
-		1C94D3281F3E54C000CFDFAE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C94D3271F3E54C000CFDFAE /* GameScene.sks */; };
-		1C94D32A1F3E54C000CFDFAE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C94D3291F3E54C000CFDFAE /* Actions.sks */; };
 		1C94D32C1F3E54C000CFDFAE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C94D32B1F3E54C000CFDFAE /* GameScene.swift */; };
 		1C94D32E1F3E54C000CFDFAE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C94D32D1F3E54C000CFDFAE /* GameViewController.swift */; };
-		1C94D3311F3E54C000CFDFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C94D32F1F3E54C000CFDFAE /* Main.storyboard */; };
 		1C94D3331F3E54C000CFDFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C94D3321F3E54C000CFDFAE /* Assets.xcassets */; };
-		1C94D3361F3E54C000CFDFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C94D3341F3E54C000CFDFAE /* LaunchScreen.storyboard */; };
+		1CB09D891F46354B009AF80E /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB09D881F46354B009AF80E /* Background.swift */; };
+		1CB09D8B1F463CEB009AF80E /* MountainLayerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB09D8A1F463CEB009AF80E /* MountainLayerOne.swift */; };
+		1CB09D8D1F463ED1009AF80E /* MountainLayerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB09D8C1F463ED1009AF80E /* MountainLayerTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C54958C1F4788C200DAB8F9 /* IceSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceSheet.swift; sourceTree = "<group>"; };
+		1C54958E1F478C5200DAB8F9 /* Water.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Water.swift; path = Factories/Water.swift; sourceTree = "<group>"; };
+		1C5495901F478E6500DAB8F9 /* Miki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Miki.swift; path = Factories/Miki.swift; sourceTree = "<group>"; };
+		1C5495921F47A59F00DAB8F9 /* GroundLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroundLine.swift; path = Factories/GroundLine.swift; sourceTree = "<group>"; };
 		1C94D3221F3E54C000CFDFAE /* Miki's Igloo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Miki's Igloo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C94D3251F3E54C000CFDFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C94D3271F3E54C000CFDFAE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		1C94D3291F3E54C000CFDFAE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		1C94D32B1F3E54C000CFDFAE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		1C94D32D1F3E54C000CFDFAE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		1C94D3301F3E54C000CFDFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C94D3321F3E54C000CFDFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1C94D3351F3E54C000CFDFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C94D3371F3E54C000CFDFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CB09D881F46354B009AF80E /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Background.swift; path = Factories/Background.swift; sourceTree = "<group>"; };
+		1CB09D8A1F463CEB009AF80E /* MountainLayerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MountainLayerOne.swift; path = Factories/MountainLayerOne.swift; sourceTree = "<group>"; };
+		1CB09D8C1F463ED1009AF80E /* MountainLayerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MountainLayerTwo.swift; path = Factories/MountainLayerTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +66,28 @@
 		1C94D3241F3E54C000CFDFAE /* Miki's Igloo */ = {
 			isa = PBXGroup;
 			children = (
+				1CB09D871F463487009AF80E /* Factories */,
 				1C94D3251F3E54C000CFDFAE /* AppDelegate.swift */,
-				1C94D3271F3E54C000CFDFAE /* GameScene.sks */,
-				1C94D3291F3E54C000CFDFAE /* Actions.sks */,
 				1C94D32B1F3E54C000CFDFAE /* GameScene.swift */,
 				1C94D32D1F3E54C000CFDFAE /* GameViewController.swift */,
-				1C94D32F1F3E54C000CFDFAE /* Main.storyboard */,
 				1C94D3321F3E54C000CFDFAE /* Assets.xcassets */,
-				1C94D3341F3E54C000CFDFAE /* LaunchScreen.storyboard */,
 				1C94D3371F3E54C000CFDFAE /* Info.plist */,
 			);
 			path = "Miki's Igloo";
+			sourceTree = "<group>";
+		};
+		1CB09D871F463487009AF80E /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				1CB09D881F46354B009AF80E /* Background.swift */,
+				1CB09D8A1F463CEB009AF80E /* MountainLayerOne.swift */,
+				1CB09D8C1F463ED1009AF80E /* MountainLayerTwo.swift */,
+				1C54958C1F4788C200DAB8F9 /* IceSheet.swift */,
+				1C54958E1F478C5200DAB8F9 /* Water.swift */,
+				1C5495901F478E6500DAB8F9 /* Miki.swift */,
+				1C5495921F47A59F00DAB8F9 /* GroundLine.swift */,
+			);
+			name = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +122,7 @@
 				TargetAttributes = {
 					1C94D3211F3E54C000CFDFAE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 36USDYY2K2;
+						DevelopmentTeam = Q3MU44KNM9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -133,11 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C94D3311F3E54C000CFDFAE /* Main.storyboard in Resources */,
-				1C94D3281F3E54C000CFDFAE /* GameScene.sks in Resources */,
 				1C94D3331F3E54C000CFDFAE /* Assets.xcassets in Resources */,
-				1C94D3361F3E54C000CFDFAE /* LaunchScreen.storyboard in Resources */,
-				1C94D32A1F3E54C000CFDFAE /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,32 +161,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5495931F47A59F00DAB8F9 /* GroundLine.swift in Sources */,
 				1C94D32C1F3E54C000CFDFAE /* GameScene.swift in Sources */,
+				1C54958F1F478C5200DAB8F9 /* Water.swift in Sources */,
+				1C54958D1F4788C200DAB8F9 /* IceSheet.swift in Sources */,
 				1C94D32E1F3E54C000CFDFAE /* GameViewController.swift in Sources */,
 				1C94D3261F3E54C000CFDFAE /* AppDelegate.swift in Sources */,
+				1CB09D8D1F463ED1009AF80E /* MountainLayerTwo.swift in Sources */,
+				1CB09D8B1F463CEB009AF80E /* MountainLayerOne.swift in Sources */,
+				1C5495911F478E6500DAB8F9 /* Miki.swift in Sources */,
+				1CB09D891F46354B009AF80E /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1C94D32F1F3E54C000CFDFAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C94D3301F3E54C000CFDFAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1C94D3341F3E54C000CFDFAE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C94D3351F3E54C000CFDFAE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1C94D3381F3E54C000CFDFAE /* Debug */ = {
@@ -273,7 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 36USDYY2K2;
+				DEVELOPMENT_TEAM = Q3MU44KNM9;
 				INFOPLIST_FILE = "Miki's Igloo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -287,7 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 36USDYY2K2;
+				DEVELOPMENT_TEAM = Q3MU44KNM9;
 				INFOPLIST_FILE = "Miki's Igloo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -316,6 +317,7 @@
 				1C94D33C1F3E54C000CFDFAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
